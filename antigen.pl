@@ -29,8 +29,8 @@ use Test::More;
 system("git clone https://github.com/zsh-users/antigen ~/.antigen");
 
 ok -d "$ENV{'HOME'}/.antigen";
-system("zsh");
-ok $? == 0, "zsh";
+#system("zsh");
+#ok $? == 0, "zsh";
 system("antigen help");
 ok $? == 0, "antigen";
 
