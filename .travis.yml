@@ -1,7 +1,7 @@
 language: ruby
 before_install:
     - sudo apt-get install zsh
-install:
+before_script:
     - zsh
 script:
     - prove -v ./antigen.pl
