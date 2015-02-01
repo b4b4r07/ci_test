@@ -32,7 +32,7 @@ ok -d "$ENV{'HOME'}/.antigen";
 system("zsh");
 ok $? == 0, "zsh";
 system("antigen help");
-ok $? == 0, "antigen"
+ok $? == 0, "antigen";
 
 
 done_testing;
