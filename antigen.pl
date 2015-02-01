@@ -26,12 +26,10 @@ use Test::More;
 #    }->($f);
 #}
 
-system("git clone https://github.com/zsh-users/antigen ~/.antigen");
 
-ok -d "$ENV{'HOME'}/.antigen";
 #system("zsh");
 #ok $? == 0, "zsh";
-system("antigen help");
+system("bash ./antigen.zsh");
 ok $? == 0, "antigen";
 
 
