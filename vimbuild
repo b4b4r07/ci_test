@@ -1,4 +1,5 @@
 #!/bin/bash
+ set -e
 
 CUR_DIR=`pwd`
 CUR_DIR=/usr/local/vim
