@@ -3,7 +3,7 @@
 
 CUR_DIR=`pwd`
 CUR_DIR=/usr/local/vim
-mkdir -p $CUR_DIR
+sudo mkdir -p $CUR_DIR
 
 ARCH="unix"
 FILE_VERSIONS_LIST="$CUR_DIR/.vim-versions"
