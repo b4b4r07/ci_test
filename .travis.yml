@@ -1,0 +1,7 @@
+language: perl
+perl:
+    - 5.14
+env:
+    - PROVE_OPT=-v 
+script:
+    - prove -v ./test.pl
