@@ -1,5 +1,5 @@
 language: ruby
 install:
-    #- sudo apt-get install ftp
+    - sudo apt-get install zsh
 script:
     - prove -v ./antigen.pl
