@@ -1,5 +1,5 @@
 language: ruby
 install:
-    - sudo apt-get install ftp
+    #- sudo apt-get install ftp
 script:
-    - prove -v ./test.pl
+    - prove -v ./antigen.pl
