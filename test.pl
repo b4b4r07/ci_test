@@ -11,7 +11,7 @@ cmp_ok @list, '>', 0, '@list > 0';
 
 foreach my $f (@list) {
     # Check debug mode init scripts
-    system("bash $f");
+    system("yes | bash $f");
     ok $? == 0;
 }
 done_testing;
