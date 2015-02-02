@@ -14,7 +14,7 @@ sub which($) {
     }
 }
 
-system("bash ./install_pygments.sh");
+system("yes | bash ./install_pygments.sh");
 ok $? == 0;
 
 ok which('pygmentize');
