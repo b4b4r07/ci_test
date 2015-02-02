@@ -5,4 +5,4 @@ before_script:
     #- zsh
 script:
     #- prove -v ./install_pygments.pl
-    - ./Brewfile
+    - bash Brewfile
