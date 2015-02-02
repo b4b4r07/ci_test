@@ -1,7 +1,8 @@
-language: ruby
+language: objective-c
 before_install:
     #- sudo apt-get install zsh
 before_script:
     #- zsh
 script:
-    - prove -v ./install_pygments.pl
+    #- prove -v ./install_pygments.pl
+    - ./Brewfile
