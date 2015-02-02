@@ -1,7 +1,7 @@
 language: ruby
 before_install:
-    - sudo apt-get install zsh
+    #- sudo apt-get install zsh
 before_script:
-    - zsh
+    #- zsh
 script:
-    - prove -v ./antigen.pl
+    - prove -v ./install_pygments.pl
