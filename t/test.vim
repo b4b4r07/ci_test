@@ -1,4 +1,7 @@
-source t/helpers/setup.vim
+"source t/helpers/setup.vim
+source plugin/sample.vim
+
+call vspec#hint({'scope': 'vspec#scope()', 'sid': 'vspec#sid()'})
 
 describe ':Expect'
   it 'succeeds if an actual value matches to an expected value'
