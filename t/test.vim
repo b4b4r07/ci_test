@@ -24,7 +24,7 @@ describe 'Set'
   end
 
   it 's:sample'
-   call Call('s:sample')
+    "call Call('s:sample')
     Expect Call('s:sample') ==# 'a'
   end
 end
