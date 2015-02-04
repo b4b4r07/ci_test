@@ -9,13 +9,13 @@ describe ':Expect'
   end
 end
 
-function! s:sample2()
+function! Sample2()
   let x = 'a'
   return x
 endfunction
 
 describe 'Set'
   it 'sample2'
-    Expect Call('s:sample2') ==# 'a'
+    Expect Call('Sample2') ==# 'a'
   end
 end
