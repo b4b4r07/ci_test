@@ -15,6 +15,10 @@ function! Sample2()
 endfunction
 
 describe 'Set'
+  it 'sample'
+    Expect Call('Sample') ==# 'a'
+  end
+
   it 'sample2'
     Expect Call('Sample2') ==# 'a'
   end
