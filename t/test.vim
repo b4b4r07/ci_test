@@ -1,5 +1,4 @@
-"source t/helpers/setup.vim
-source plugin/sample.vim
+runtime! plugin/sample.vim
 
 call vspec#hint({'scope': 'vspec#scope()', 'sid': 'vspec#sid()'})
 
