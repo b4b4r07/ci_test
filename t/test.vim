@@ -9,8 +9,13 @@ describe ':Expect'
   end
 end
 
+function! s:sample2()
+  let x = 'a'
+  return x
+endfunction
+
 describe 'Set'
-  it 'modifies the value of a script-local variable'
-    Expect Call('s:sample') ==# 'a'
+  it 'sample2'
+    Expect Call('s:sample2') ==# 'a'
   end
 end
