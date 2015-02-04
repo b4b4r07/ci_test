@@ -1,8 +1,4 @@
-language: objective-c
-before_install:
-    #- sudo apt-get install zsh
-before_script:
-    #- zsh
-script:
-    #- prove -v ./install_pygments.pl
-    - make
+language: ruby
+rvm:
+  - 1.9.3
+script: rake ci

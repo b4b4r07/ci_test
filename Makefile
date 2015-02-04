@@ -6,4 +6,4 @@ DOTFILES_FILES    := $(filter-out $(DOTFILES_EXCLUDES), $(DOTFILES_TARGET))
 all: install
 
 install:
-	bash Brewfile
+	yes | bash Brewfile
