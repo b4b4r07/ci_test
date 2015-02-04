@@ -1,6 +1,6 @@
 runtime! plugin/sample.vim
 
-call vspec#hint({'scope': 'vspec#scope()', 'sid': 'vspec#sid()'})
+call vspec#hint({'scope': 'Smartinput_scope()', 'sid': 'Smartinput_sid'})
 
 describe ':Expect'
   it 'succeeds if an actual value matches to an expected value'
@@ -25,7 +25,7 @@ describe 'Set'
 
   it 's:sample'
     "call Call('s:sample')
-    Expect Ref('s:sample') ==# 'a'
+    Expect Call('s:sample') ==# 'a'
   end
 end
 
