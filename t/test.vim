@@ -22,4 +22,10 @@ describe 'Set'
   it 'sample2'
     Expect Call('Sample2') ==# 'a'
   end
+
+  it 's:sample'
+   call Call('s:sample')
+    Expect Call('s:sample') ==# 'a'
+  end
 end
+
